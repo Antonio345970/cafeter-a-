@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@100;300;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 4rem;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background-color: wheat;
+  
+  
+}
+header{
+  position: relative;
+}
+
+header h1{
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+header img{
+  max-width: 100%;
+  height: auto;
+}
+
+nav{
+  display: flex;
+  background-color: burlywood;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav button a{
+  color: black;
+  font-size: 20px;
+}
+
+
+
+button{
+  background-color: burlywood;
+  height: 50px;
+  color: black;
+  border: solid burlywood;
+}
+
+article{
+  position: relative;
+}
+
+
+article figure img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+article header #uno{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,50%)
+  
+}
+
+p{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+h2{
+  color: saddlebrown;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
+.vaso{
+  max-width: 50%;
+  height: auto;
+  justify-content: space-between;
+}
+
+.bebida ul li{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  color: brown;
+  font-size: 40px;
+}
+
+.registro{
+  max-width: 100%;
+}
+
+aside{
+  width: auto;
+  background-color: blanchedalmond;
+}
+
+main{
+  float: left;
+  width: auto;
+  height: auto;
+  
+}
+
+.registro{
+  width: 50%;
+  height: 50px;
+  background-color: wheat;
+  color: chocolate;
+  font-weight: bold;
+}
+
+div button{
+  width: 40%;
+  border-radius: 10px;
+}
+
+imagenes{
+  display: flex;
+}
+
+
+#imagen{
+  display: flex;
+}
+
+
+#red{
+  display: flex;
+}
+
